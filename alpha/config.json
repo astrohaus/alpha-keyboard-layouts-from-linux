@@ -1,0 +1,496 @@
+{
+ "comment": "Alpha keymap catalog. Order IS the layout_index_t enum order (append-only: the registry index space and the @postbox/types mirror depend on it). Existing layouts/<code>.c files are frozen output - the generator only emits .c files for codes that lack one.",
+ "layouts": [
+  {
+   "code": "en",
+   "name": "English",
+   "model": "pc104",
+   "layout": "us",
+   "variant": ""
+  },
+  {
+   "code": "en_intl",
+   "name": "English (Int'l)",
+   "model": "pc104",
+   "layout": "us",
+   "variant": "intl"
+  },
+  {
+   "code": "bg",
+   "name": "Bulgarian",
+   "model": "pc104",
+   "layout": "bg",
+   "variant": ""
+  },
+  {
+   "code": "bg_ph",
+   "name": "Bulgarian (Phonetic)",
+   "model": "pc104",
+   "layout": "bg",
+   "variant": "phonetic"
+  },
+  {
+   "code": "cs",
+   "name": "Czech",
+   "model": "pc104",
+   "layout": "cz",
+   "variant": ""
+  },
+  {
+   "code": "da",
+   "name": "Danish",
+   "model": "pc104",
+   "layout": "dk",
+   "variant": ""
+  },
+  {
+   "code": "da_dv",
+   "name": "Danish (Dvorak)",
+   "model": "pc104",
+   "layout": "dk",
+   "variant": "dvorak"
+  },
+  {
+   "code": "de",
+   "name": "German",
+   "model": "pc104",
+   "layout": "de",
+   "variant": ""
+  },
+  {
+   "code": "de_neo",
+   "name": "Neo (German)",
+   "model": "pc104",
+   "layout": "de",
+   "variant": "neo"
+  },
+  {
+   "code": "de_dv",
+   "name": "German (Dvorak)",
+   "model": "pc104",
+   "layout": "de",
+   "variant": "dvorak"
+  },
+  {
+   "code": "de_sw",
+   "name": "German (Swiss)",
+   "model": "pc104",
+   "layout": "ch",
+   "variant": "fr"
+  },
+  {
+   "code": "en_colemak",
+   "name": "Colemak (English)",
+   "model": "pc104",
+   "layout": "us",
+   "variant": "colemak"
+  },
+  {
+   "code": "en_dvorak",
+   "name": "Dvorak (English)",
+   "model": "pc104",
+   "layout": "us",
+   "variant": "dvorak"
+  },
+  {
+   "code": "en_intl_altgr",
+   "name": "English (Int'l AltGr)",
+   "model": "pc104",
+   "layout": "us",
+   "variant": "altgr-intl"
+  },
+  {
+   "code": "es",
+   "name": "Spanish",
+   "model": "pc104",
+   "layout": "es",
+   "variant": ""
+  },
+  {
+   "code": "es_dv",
+   "name": "Spanish (Dvorak)",
+   "model": "pc104",
+   "layout": "es",
+   "variant": "dvorak"
+  },
+  {
+   "code": "eurkey",
+   "name": "Eurkey",
+   "model": "pc104",
+   "layout": "eu",
+   "variant": ""
+  },
+  {
+   "code": "fr",
+   "name": "French",
+   "model": "pc104",
+   "layout": "fr",
+   "variant": ""
+  },
+  {
+   "code": "fr_be",
+   "name": "French (Belgium)",
+   "model": "pc104",
+   "layout": "be",
+   "variant": ""
+  },
+  {
+   "code": "fr_bp",
+   "name": "French (Bepo)",
+   "model": "pc104",
+   "layout": "fr",
+   "variant": "bepo"
+  },
+  {
+   "code": "fr_ca",
+   "name": "French (Canada)",
+   "model": "pc104",
+   "layout": "ca",
+   "variant": ""
+  },
+  {
+   "code": "fr_ch",
+   "name": "French (Swiss)",
+   "model": "pc104",
+   "layout": "ch",
+   "variant": "fr"
+  },
+  {
+   "code": "fr_dv",
+   "name": "French (Dvorak)",
+   "model": "pc104",
+   "layout": "fr",
+   "variant": "dvorak"
+  },
+  {
+   "code": "hu",
+   "name": "Hungarian",
+   "model": "pc104",
+   "layout": "hu",
+   "variant": ""
+  },
+  {
+   "code": "it",
+   "name": "Italian",
+   "model": "pc104",
+   "layout": "it",
+   "variant": ""
+  },
+  {
+   "code": "lv2",
+   "name": "Latvian (AltGr)",
+   "model": "pc104",
+   "layout": "lv",
+   "variant": ""
+  },
+  {
+   "code": "lva",
+   "name": "Latvian (Apostrophe)",
+   "model": "pc104",
+   "layout": "lv",
+   "variant": "apostrophe"
+  },
+  {
+   "code": "nl",
+   "name": "Dutch",
+   "model": "pc104",
+   "layout": "nl",
+   "variant": ""
+  },
+  {
+   "code": "no",
+   "name": "Norwegian",
+   "model": "pc104",
+   "layout": "no",
+   "variant": ""
+  },
+  {
+   "code": "no_dv",
+   "name": "Norwegian (Dvorak)",
+   "model": "pc104",
+   "layout": "no",
+   "variant": "dvorak"
+  },
+  {
+   "code": "pl",
+   "name": "Polish (Qwertz)",
+   "model": "pc104",
+   "layout": "pl",
+   "variant": ""
+  },
+  {
+   "code": "pl_2",
+   "name": "Polish (Qwerty)",
+   "model": "pc104",
+   "layout": "pl",
+   "variant": ""
+  },
+  {
+   "code": "pl_prog",
+   "name": "Polish (Programmers)",
+   "model": "pc104",
+   "layout": "pl",
+   "variant": "legacy"
+  },
+  {
+   "code": "pl_dv",
+   "name": "Polish (Programmers Dvorak)",
+   "model": "pc104",
+   "layout": "pl",
+   "variant": "dvp"
+  },
+  {
+   "code": "pt",
+   "name": "Portuguese",
+   "model": "pc104",
+   "layout": "pt",
+   "variant": ""
+  },
+  {
+   "code": "pt_br",
+   "name": "Portuguese (Brazil)",
+   "model": "pc104",
+   "layout": "br",
+   "variant": ""
+  },
+  {
+   "code": "ru",
+   "name": "Russian",
+   "model": "pc104",
+   "layout": "ru",
+   "variant": ""
+  },
+  {
+   "code": "sk",
+   "name": "Slovak",
+   "model": "pc104",
+   "layout": "sk",
+   "variant": ""
+  },
+  {
+   "code": "sl",
+   "name": "Slovenian",
+   "model": "pc104",
+   "layout": "si",
+   "variant": ""
+  },
+  {
+   "code": "sv",
+   "name": "Swedish",
+   "model": "pc104",
+   "layout": "se",
+   "variant": ""
+  },
+  {
+   "code": "sw_dv",
+   "name": "Dvorak (Swedish)",
+   "model": "pc104",
+   "layout": "se",
+   "variant": "dvorak"
+  },
+  {
+   "code": "tr",
+   "name": "Turkish",
+   "model": "pc104",
+   "layout": "tr",
+   "variant": ""
+  },
+  {
+   "code": "sq",
+   "name": "Albanian",
+   "model": "pc104",
+   "layout": "al",
+   "variant": ""
+  },
+  {
+   "code": "be",
+   "name": "Belarusian",
+   "model": "pc104",
+   "layout": "by",
+   "variant": ""
+  },
+  {
+   "code": "bs",
+   "name": "Bosnian",
+   "model": "pc104",
+   "layout": "ba",
+   "variant": ""
+  },
+  {
+   "code": "hr",
+   "name": "Croatian",
+   "model": "pc104",
+   "layout": "hr",
+   "variant": ""
+  },
+  {
+   "code": "et",
+   "name": "Estonian",
+   "model": "pc104",
+   "layout": "ee",
+   "variant": ""
+  },
+  {
+   "code": "fo",
+   "name": "Faroese",
+   "model": "pc104",
+   "layout": "fo",
+   "variant": ""
+  },
+  {
+   "code": "fi",
+   "name": "Finnish",
+   "model": "pc104",
+   "layout": "fi",
+   "variant": ""
+  },
+  {
+   "code": "is",
+   "name": "Icelandic",
+   "model": "pc104",
+   "layout": "is",
+   "variant": ""
+  },
+  {
+   "code": "lt",
+   "name": "Lithuanian",
+   "model": "pc104",
+   "layout": "lt",
+   "variant": ""
+  },
+  {
+   "code": "mk",
+   "name": "Macedonian",
+   "model": "pc104",
+   "layout": "mk",
+   "variant": ""
+  },
+  {
+   "code": "mt",
+   "name": "Maltese",
+   "model": "pc104",
+   "layout": "mt",
+   "variant": ""
+  },
+  {
+   "code": "sr_latin",
+   "name": "Serbian (Latin)",
+   "model": "pc104",
+   "layout": "rs",
+   "variant": "latin"
+  },
+  {
+   "code": "sr_cyrillic",
+   "name": "Serbian (Cyrillic)",
+   "model": "pc104",
+   "layout": "rs",
+   "variant": ""
+  },
+  {
+   "code": "uk",
+   "name": "Ukrainian",
+   "model": "pc104",
+   "layout": "ua",
+   "variant": ""
+  },
+  {
+   "code": "ga",
+   "name": "Irish",
+   "model": "pc104",
+   "layout": "ie",
+   "variant": ""
+  },
+  {
+   "code": "eo",
+   "name": "Esperanto",
+   "model": "pc104",
+   "layout": "epo",
+   "variant": ""
+  },
+  {
+   "code": "eo_en",
+   "name": "Esperanto (English Intl)",
+   "model": "pc104",
+   "layout": "us",
+   "variant": "intl"
+  },
+  {
+   "code": "tk",
+   "name": "Turkmen",
+   "model": "pc104",
+   "layout": "tm",
+   "variant": ""
+  },
+  {
+   "code": "can",
+   "name": "Canadian Multilingual",
+   "model": "pc104",
+   "layout": "ca",
+   "variant": "multix"
+  },
+  {
+   "code": "id",
+   "name": "Indonesian",
+   "model": "pc104",
+   "layout": "id",
+   "variant": ""
+  },
+  {
+   "code": "ph",
+   "name": "Filipino",
+   "model": "pc104",
+   "layout": "ph",
+   "variant": ""
+  },
+  {
+   "code": "pt_nt",
+   "name": "Portuguese (Nativo)",
+   "model": "pc104",
+   "layout": "pt",
+   "variant": "nativo"
+  },
+  {
+   "code": "ro",
+   "name": "Romanian",
+   "model": "pc104",
+   "layout": "ro",
+   "variant": "std"
+  },
+  {
+   "code": "sw",
+   "name": "Swahili",
+   "model": "pc104",
+   "layout": "ke",
+   "variant": ""
+  },
+  {
+   "code": "wo",
+   "name": "Wolof",
+   "model": "pc104",
+   "layout": "sn",
+   "variant": ""
+  }
+ ],
+ "downgrades": [
+  {
+   "source": "0x218",
+   "downgraded": "0x15E",
+   "comment": "Ș -> Ş (font has no comma-below glyphs; render-time downgrade only, stored text keeps U+0218)"
+  },
+  {
+   "source": "0x219",
+   "downgraded": "0x15F",
+   "comment": "ș -> ş"
+  },
+  {
+   "source": "0x21A",
+   "downgraded": "0x162",
+   "comment": "Ț -> Ţ"
+  },
+  {
+   "source": "0x21B",
+   "downgraded": "0x163",
+   "comment": "ț -> ţ"
+  }
+ ]
+}

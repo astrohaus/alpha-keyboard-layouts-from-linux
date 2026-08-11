@@ -1,95 +1,457 @@
 {
-  "en": { "model": "pc104", "layout": "us", "variant": "" },
-  "en_intl": { "model": "pc104", "layout": "us", "variant": "intl" },
-  "ara": { "model": "pc104", "layout": "ara", "variant": "basic" },
-  "bg": { "model": "pc104", "layout": "bg", "variant": "" },
-  "bg_ph": { "model": "pc104", "layout": "bg", "variant": "phonetic" },
-  "cn_py_s": { "model": "pc104", "layout": "cn", "variant": "" },
-  "cn_py_t": { "model": "pc104", "layout": "cn", "variant": "" },
-  "cs": { "model": "pc104", "layout": "cz", "variant": "" },
-  "da": { "model": "pc104", "layout": "dk", "variant": "" },
-  "da_dv": { "model": "pc104", "layout": "dk", "variant": "dvorak" },
-  "de": { "model": "pc104", "layout": "de", "variant": "" },
-  "de_neo": { "model": "pc104", "layout": "de", "variant": "neo" },
-  "de_dv": { "model": "pc104", "layout": "de", "variant": "dvorak" },
-  "de_sw": { "model": "pc104", "layout": "ch", "variant": "fr" },
-  "el": { "model": "pc104", "layout": "gr", "variant": "" },
-  "en_colemak": { "model": "pc104", "layout": "us", "variant": "colemak" },
-  "en_dvorak": { "model": "pc104", "layout": "us", "variant": "dvorak" },
-  "en_intl_altgr": {
-    "model": "pc104",
-    "layout": "us",
-    "variant": "altgr-intl"
-  },
-  "es": { "model": "pc104", "layout": "es", "variant": "" },
-  "es_dv": { "model": "pc104", "layout": "es", "variant": "dvorak" },
-  "eurkey": { "model": "pc104", "layout": "eu", "variant": "" },
-  "fr": { "model": "pc104", "layout": "fr", "variant": "" },
-  "fr_be": { "model": "pc104", "layout": "be", "variant": "" },
-  "fr_bp": { "model": "pc104", "layout": "fr", "variant": "bepo" },
-  "fr_ca": { "model": "pc104", "layout": "ca", "variant": "" },
-  "fr_ch": { "model": "pc104", "layout": "ch", "variant": "fr" },
-  "fr_dv": { "model": "pc104", "layout": "fr", "variant": "dvorak" },
-  "he": { "model": "pc104", "layout": "il", "variant": "" },
-  "hu": { "model": "pc104", "layout": "hu", "variant": "" },
-  "it": { "model": "pc104", "layout": "it", "variant": "" },
-  "ja": { "model": "pc104", "layout": "us", "variant": "" },
-  "ko": { "model": "pc104", "layout": "kr", "variant": "" },
-  "lv2": { "model": "pc104", "layout": "lv", "variant": "" },
-  "lva": { "model": "pc104", "layout": "lv", "variant": "apostrophe" },
-  "nl": { "model": "pc104", "layout": "nl", "variant": "" },
-  "no": { "model": "pc104", "layout": "no", "variant": "" },
-  "no_dv": { "model": "pc104", "layout": "no", "variant": "dvorak" },
-  "pl": { "model": "pc104", "layout": "pl", "variant": "" },
-  "pl_2": { "model": "pc104", "layout": "pl", "variant": "" },
-  "pl_prog": { "model": "pc104", "layout": "pl", "variant": "legacy" },
-  "pl_dv": { "model": "pc104", "layout": "pl", "variant": "dvp" },
-  "pt": { "model": "pc104", "layout": "pt", "variant": "" },
-  "pt_br": { "model": "pc104", "layout": "br", "variant": "" },
-  "pt_nt": { "model": "pc104", "layout": "pt", "variant": "nativo" },
-  "ru": { "model": "pc104", "layout": "ru", "variant": "" },
-  "sk": { "model": "pc104", "layout": "sk", "variant": "" },
-  "sl": { "model": "pc104", "layout": "si", "variant": "" },
-  "sv": { "model": "pc104", "layout": "se", "variant": "" },
-  "sw_dv": { "model": "pc104", "layout": "se", "variant": "dvorak" },
-  "tr": { "model": "pc104", "layout": "tr", "variant": "" },
-  "ps": { "model": "pc104", "layout": "af", "variant": "olpc-ps" },
-  "sq": { "model": "pc104", "layout": "al", "variant": "" },
-  "hy": { "model": "pc104", "layout": "am", "variant": "phonetic" },
-  "az": { "model": "pc104", "layout": "az", "variant": "" },
-  "be": { "model": "pc104", "layout": "by", "variant": "" },
-  "bs": { "model": "pc104", "layout": "ba", "variant": "" },
-  "ln": { "model": "pc104", "layout": "cd", "variant": "" },
-  "hr": { "model": "pc104", "layout": "hr", "variant": "" },
-  "et": { "model": "pc104", "layout": "ee", "variant": "" },
-  "fa": { "model": "pc104", "layout": "ir", "variant": "" },
-  "ku": { "model": "pc104", "layout": "iq", "variant": "ku_ara" },
-  "fo": { "model": "pc104", "layout": "fo", "variant": "" },
-  "fi": { "model": "pc104", "layout": "fi", "variant": "" },
-  "ha": { "model": "pc104", "layout": "gh", "variant": "hausa" },
-  "ka": { "model": "pc104", "layout": "ge", "variant": "" },
-  "is": { "model": "pc104", "layout": "is", "variant": "" },
-  "ky": { "model": "pc104", "layout": "kg", "variant": "" },
-  "kk": { "model": "pc104", "layout": "kz", "variant": "ext" },
-  "lo": { "model": "pc104", "layout": "la", "variant": "" },
-  "lt": { "model": "pc104", "layout": "lt", "variant": "" },
-  "mk": { "model": "pc104", "layout": "mk", "variant": "" },
-  "mt": { "model": "pc104", "layout": "mt", "variant": "" },
-  "mn": { "model": "pc104", "layout": "mn", "variant": "" },
-  "ro": { "model": "pc104", "layout": "ro", "variant": "std" },
-  "sr_latin": { "model": "pc104", "layout": "rs", "variant": "latin" },
-  "sr_cyrillic": { "model": "pc104", "layout": "rs", "variant": "" },
-  "tg": { "model": "pc104", "layout": "tj", "variant": "" },
-  "uk": { "model": "pc104", "layout": "ua", "variant": "" },
-  "uz": { "model": "pc104", "layout": "uz", "variant": "" },
-  "vi": { "model": "pc104", "layout": "vn", "variant": "" },
-  "ga": { "model": "pc104", "layout": "ie", "variant": "" },
-  "eo": { "model": "pc104", "layout": "epo", "variant": "" },
-  "eo_en": { "model": "pc104", "layout": "us", "variant": "intl" },
-  "wo": { "model": "pc104", "layout": "sn", "variant": "" },
-  "tk": { "model": "pc104", "layout": "tm", "variant": "" },
-  "bm": { "model": "pc104", "layout": "ml", "variant": "" },
-  "sw": { "model": "pc104", "layout": "ke", "variant": "" },
-  "ms": { "model": "pc104", "layout": "my", "variant": "" },
-  "can":{ "model": "pc104", "layout": "ca", "variant": "multix"}
+    "en": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": ""
+    },
+    "en_intl": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": "intl"
+    },
+    "ara": {
+        "model": "pc104",
+        "layout": "ara",
+        "variant": "basic"
+    },
+    "bg": {
+        "model": "pc104",
+        "layout": "bg",
+        "variant": ""
+    },
+    "bg_ph": {
+        "model": "pc104",
+        "layout": "bg",
+        "variant": "phonetic"
+    },
+    "cn_py_s": {
+        "model": "pc104",
+        "layout": "cn",
+        "variant": ""
+    },
+    "cn_py_t": {
+        "model": "pc104",
+        "layout": "cn",
+        "variant": ""
+    },
+    "cs": {
+        "model": "pc104",
+        "layout": "cz",
+        "variant": ""
+    },
+    "da": {
+        "model": "pc104",
+        "layout": "dk",
+        "variant": ""
+    },
+    "da_dv": {
+        "model": "pc104",
+        "layout": "dk",
+        "variant": "dvorak"
+    },
+    "de": {
+        "model": "pc104",
+        "layout": "de",
+        "variant": ""
+    },
+    "de_neo": {
+        "model": "pc104",
+        "layout": "de",
+        "variant": "neo"
+    },
+    "de_dv": {
+        "model": "pc104",
+        "layout": "de",
+        "variant": "dvorak"
+    },
+    "de_sw": {
+        "model": "pc104",
+        "layout": "ch",
+        "variant": "fr"
+    },
+    "el": {
+        "model": "pc104",
+        "layout": "gr",
+        "variant": ""
+    },
+    "en_colemak": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": "colemak"
+    },
+    "en_dvorak": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": "dvorak"
+    },
+    "en_intl_altgr": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": "altgr-intl"
+    },
+    "es": {
+        "model": "pc104",
+        "layout": "es",
+        "variant": ""
+    },
+    "es_dv": {
+        "model": "pc104",
+        "layout": "es",
+        "variant": "dvorak"
+    },
+    "eurkey": {
+        "model": "pc104",
+        "layout": "eu",
+        "variant": ""
+    },
+    "fr": {
+        "model": "pc104",
+        "layout": "fr",
+        "variant": ""
+    },
+    "fr_be": {
+        "model": "pc104",
+        "layout": "be",
+        "variant": ""
+    },
+    "fr_bp": {
+        "model": "pc104",
+        "layout": "fr",
+        "variant": "bepo"
+    },
+    "fr_ca": {
+        "model": "pc104",
+        "layout": "ca",
+        "variant": ""
+    },
+    "fr_ch": {
+        "model": "pc104",
+        "layout": "ch",
+        "variant": "fr"
+    },
+    "fr_dv": {
+        "model": "pc104",
+        "layout": "fr",
+        "variant": "dvorak"
+    },
+    "he": {
+        "model": "pc104",
+        "layout": "il",
+        "variant": ""
+    },
+    "hu": {
+        "model": "pc104",
+        "layout": "hu",
+        "variant": ""
+    },
+    "it": {
+        "model": "pc104",
+        "layout": "it",
+        "variant": ""
+    },
+    "ja": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": ""
+    },
+    "ko": {
+        "model": "pc104",
+        "layout": "kr",
+        "variant": ""
+    },
+    "lv2": {
+        "model": "pc104",
+        "layout": "lv",
+        "variant": ""
+    },
+    "lva": {
+        "model": "pc104",
+        "layout": "lv",
+        "variant": "apostrophe"
+    },
+    "nl": {
+        "model": "pc104",
+        "layout": "nl",
+        "variant": ""
+    },
+    "no": {
+        "model": "pc104",
+        "layout": "no",
+        "variant": ""
+    },
+    "no_dv": {
+        "model": "pc104",
+        "layout": "no",
+        "variant": "dvorak"
+    },
+    "pl": {
+        "model": "pc104",
+        "layout": "pl",
+        "variant": ""
+    },
+    "pl_2": {
+        "model": "pc104",
+        "layout": "pl",
+        "variant": ""
+    },
+    "pl_prog": {
+        "model": "pc104",
+        "layout": "pl",
+        "variant": "legacy"
+    },
+    "pl_dv": {
+        "model": "pc104",
+        "layout": "pl",
+        "variant": "dvp"
+    },
+    "pt": {
+        "model": "pc104",
+        "layout": "pt",
+        "variant": ""
+    },
+    "pt_br": {
+        "model": "pc104",
+        "layout": "br",
+        "variant": ""
+    },
+    "pt_nt": {
+        "model": "pc104",
+        "layout": "pt",
+        "variant": "nativo"
+    },
+    "ru": {
+        "model": "pc104",
+        "layout": "ru",
+        "variant": ""
+    },
+    "sk": {
+        "model": "pc104",
+        "layout": "sk",
+        "variant": ""
+    },
+    "sl": {
+        "model": "pc104",
+        "layout": "si",
+        "variant": ""
+    },
+    "sv": {
+        "model": "pc104",
+        "layout": "se",
+        "variant": ""
+    },
+    "sw_dv": {
+        "model": "pc104",
+        "layout": "se",
+        "variant": "dvorak"
+    },
+    "tr": {
+        "model": "pc104",
+        "layout": "tr",
+        "variant": ""
+    },
+    "ps": {
+        "model": "pc104",
+        "layout": "af",
+        "variant": "olpc-ps"
+    },
+    "sq": {
+        "model": "pc104",
+        "layout": "al",
+        "variant": ""
+    },
+    "hy": {
+        "model": "pc104",
+        "layout": "am",
+        "variant": "phonetic"
+    },
+    "az": {
+        "model": "pc104",
+        "layout": "az",
+        "variant": ""
+    },
+    "be": {
+        "model": "pc104",
+        "layout": "by",
+        "variant": ""
+    },
+    "bs": {
+        "model": "pc104",
+        "layout": "ba",
+        "variant": ""
+    },
+    "ln": {
+        "model": "pc104",
+        "layout": "cd",
+        "variant": ""
+    },
+    "hr": {
+        "model": "pc104",
+        "layout": "hr",
+        "variant": ""
+    },
+    "et": {
+        "model": "pc104",
+        "layout": "ee",
+        "variant": ""
+    },
+    "fa": {
+        "model": "pc104",
+        "layout": "ir",
+        "variant": ""
+    },
+    "ku": {
+        "model": "pc104",
+        "layout": "iq",
+        "variant": "ku_ara"
+    },
+    "fo": {
+        "model": "pc104",
+        "layout": "fo",
+        "variant": ""
+    },
+    "fi": {
+        "model": "pc104",
+        "layout": "fi",
+        "variant": ""
+    },
+    "ha": {
+        "model": "pc104",
+        "layout": "gh",
+        "variant": "hausa"
+    },
+    "ka": {
+        "model": "pc104",
+        "layout": "ge",
+        "variant": ""
+    },
+    "is": {
+        "model": "pc104",
+        "layout": "is",
+        "variant": ""
+    },
+    "ky": {
+        "model": "pc104",
+        "layout": "kg",
+        "variant": ""
+    },
+    "kk": {
+        "model": "pc104",
+        "layout": "kz",
+        "variant": "ext"
+    },
+    "lo": {
+        "model": "pc104",
+        "layout": "la",
+        "variant": ""
+    },
+    "lt": {
+        "model": "pc104",
+        "layout": "lt",
+        "variant": ""
+    },
+    "mk": {
+        "model": "pc104",
+        "layout": "mk",
+        "variant": ""
+    },
+    "mt": {
+        "model": "pc104",
+        "layout": "mt",
+        "variant": ""
+    },
+    "mn": {
+        "model": "pc104",
+        "layout": "mn",
+        "variant": ""
+    },
+    "ro": {
+        "model": "pc104",
+        "layout": "ro",
+        "variant": "std"
+    },
+    "sr_latin": {
+        "model": "pc104",
+        "layout": "rs",
+        "variant": "latin"
+    },
+    "sr_cyrillic": {
+        "model": "pc104",
+        "layout": "rs",
+        "variant": ""
+    },
+    "tg": {
+        "model": "pc104",
+        "layout": "tj",
+        "variant": ""
+    },
+    "uk": {
+        "model": "pc104",
+        "layout": "ua",
+        "variant": ""
+    },
+    "uz": {
+        "model": "pc104",
+        "layout": "uz",
+        "variant": ""
+    },
+    "vi": {
+        "model": "pc104",
+        "layout": "vn",
+        "variant": ""
+    },
+    "ga": {
+        "model": "pc104",
+        "layout": "ie",
+        "variant": ""
+    },
+    "eo": {
+        "model": "pc104",
+        "layout": "epo",
+        "variant": ""
+    },
+    "eo_en": {
+        "model": "pc104",
+        "layout": "us",
+        "variant": "intl"
+    },
+    "wo": {
+        "model": "pc104",
+        "layout": "sn",
+        "variant": ""
+    },
+    "tk": {
+        "model": "pc104",
+        "layout": "tm",
+        "variant": ""
+    },
+    "bm": {
+        "model": "pc104",
+        "layout": "ml",
+        "variant": ""
+    },
+    "sw": {
+        "model": "pc104",
+        "layout": "ke",
+        "variant": ""
+    },
+    "ms": {
+        "model": "pc104",
+        "layout": "my",
+        "variant": ""
+    },
+    "can": {
+        "model": "pc104",
+        "layout": "ca",
+        "variant": "multix"
+    },
+    "id": {
+        "model": "pc104",
+        "layout": "id",
+        "variant": ""
+    },
+    "ph": {
+        "model": "pc104",
+        "layout": "ph",
+        "variant": ""
+    }
 }
