@@ -469,6 +469,13 @@
    "model": "pc104",
    "layout": "sn",
    "variant": ""
+  },
+  {
+   "code": "il",
+   "name": "Hebrew",
+   "model": "pc104",
+   "layout": "il",
+   "variant": ""
   }
  ],
  "downgrades": [
