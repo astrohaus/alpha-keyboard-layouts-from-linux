@@ -458,5 +458,15 @@
         "model": "pc104",
         "layout": "il",
         "variant": ""
+    },
+    "en_gb": {
+        "model": "pc104",
+        "layout": "gb",
+        "variant": ""
+    },
+    "es_latam": {
+        "model": "pc104",
+        "layout": "latam",
+        "variant": ""
     }
 }
