@@ -476,6 +476,20 @@
    "model": "pc104",
    "layout": "il",
    "variant": ""
+  },
+  {
+   "code": "en_gb",
+   "name": "English (UK)",
+   "model": "pc104",
+   "layout": "gb",
+   "variant": ""
+  },
+  {
+   "code": "es_latam",
+   "name": "Spanish (Latin America)",
+   "model": "pc104",
+   "layout": "latam",
+   "variant": ""
   }
  ],
  "downgrades": [
